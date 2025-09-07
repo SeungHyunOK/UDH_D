@@ -103,7 +103,7 @@ export interface StoryBeat {
 export interface APIError {
   status: number;
   message: string;
-  details?: any;
+  details?: unknown;
 }
 
 // API 응답 래퍼 타입
